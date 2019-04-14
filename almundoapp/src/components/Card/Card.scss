@@ -1,0 +1,197 @@
+.container-card{
+    width: 100%;
+    height: auto;
+    background-color: #DCD7D5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .card{
+        width: 90%;
+        height: auto;
+        background-color: #ffffff;
+        margin-top: 20px;
+        box-shadow: 2px 2px 4px #FAF5F4;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2%;
+        .image{
+            width: 100%;
+            height: 200px;
+            background: url('./../../assets/images/00650d24_b.jpg') no-repeat center;
+        }
+        .info-hotel{
+            width: 100%;
+            height: 150px;
+            border-bottom: 1px solid #CACA;
+            p{
+                text-align: left;
+                color: blue;
+                font-weight: bold;
+            }
+            .container-estrellas{
+                width: 100px;
+                height: auto;
+                display: flex;
+                margin-top: 25px;
+                .estrellas{
+                    width: 20px;
+                    height: 20px;
+                    background: url('./../../assets/icons/star.svg') no-repeat center;
+                }
+            }
+            .container-iconos{
+                width: 100%;
+                height: auto;
+                display: flex;
+                margin-top: 25px;
+                .nightclub{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/nightclub.svg') no-repeat center;
+                }
+                .sheets{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/sheets.svg') no-repeat center;
+                }
+                .bathrobes{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/bathrobes.svg') no-repeat center;
+                }
+                .bathtub{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/bathtub.svg') no-repeat center;
+                }
+                .beach{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/beach.svg') no-repeat center;
+                }
+                .business-center{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/business-center.svg') no-repeat center;
+                }
+                .children-club{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/children-club.svg') no-repeat center;
+                }
+                .coffe-maker{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/coffe-maker.svg') no-repeat center;
+                }
+                .deep-soaking-bathtub{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/deep-soaking-bathtub.svg') no-repeat center;
+                }
+                .fitness-center{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/fitness-center.svg') no-repeat center;
+                }
+                .garden{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/garden.svg') no-repeat center;
+                }
+                .newspaper{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/newspaper.svg') no-repeat center;
+                }
+                .restaurant{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/restaurant.svg') no-repeat center;
+                }
+                .safety-box{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/safety-box.svg') no-repeat center;
+                }
+                .separate-bredroom{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/separate-bredroom.svg') no-repeat center;
+                }
+                .sheets{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/sheets.svg') no-repeat center;
+                }
+                .beach-pool-facilities{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                    background: url('./../../assets/icons/beach-pool-facilities.svg') no-repeat center;
+                }
+            }
+        }
+        .valor-hotel{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            p{
+                font-size: 14px;
+                margin-top: 20px;
+            }
+            .valor-noche{
+                font-size: 25px;
+                color: #F34B07;
+                span{
+                    font-weight: bold;
+                    font-size: 30px;
+                }
+            }
+            .boton{
+                width: 100%;
+                height: 40px;
+                border: none;
+                background-color: #2046AB;
+                font-size: 23px;
+                color: #ffffff;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .container-card{
+        width: 75%;
+        .card{
+            height: 200px;
+            flex-direction: row;
+            .info-hotel{
+                height: 200px;
+                border-right: 1px solid #CACA;
+                border-bottom: none;
+                margin: 0 10px;
+            }
+        }
+    }
+}

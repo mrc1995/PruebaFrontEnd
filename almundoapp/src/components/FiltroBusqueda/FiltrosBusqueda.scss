@@ -1,0 +1,82 @@
+.filtros-desptok{
+    width: 100%;
+    height: 200px;
+    z-index: 100;
+    position: absolute;
+}
+
+.buscar-hotel{
+    height: auto;
+    background-color: #ffffff;
+    .titulo{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        .lupa{
+            width: 30px;
+            height: 20px;
+            background: url('./../../assets/icons/search.svg') no-repeat center;
+        }
+        p{
+            height: 30px;
+            text-align: left;
+            font-size: 16px;
+            font-weight: bold;
+            color: #2046AB;
+            padding: 5px;
+        }
+    }
+    .container-input{
+        height: 30px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        input{
+            width: 50%;
+            height: 20px;
+            border-radius: 2px;
+            border: 1px solid rgb(207, 205, 205);
+        }
+        button{
+            width: 40%;
+            height: 25px;
+            margin-left: 10px;
+            background-color: #2046AB;
+            color: #ffffff;
+            border: none;
+            border-radius: 2px;
+        }
+    }
+}
+.buscar-estrellas-container{
+    height: 150px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    padding: 3%;
+    .buscar-estrellas{
+        width: 100%;
+        height: 25px;
+        display: flex;
+        -webkit-justify-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        .estrella{
+            width: 12px;
+            height: 12px;
+            background: url('./../../assets/icons/star.svg') no-repeat center;
+            margin-right: 5px;
+        }
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .filtros-desptok{
+        display: block;
+        width: 25%;
+        height: 340px;
+        .buscar-hotel{
+            margin-bottom: 10px;
+        }
+    }
+}

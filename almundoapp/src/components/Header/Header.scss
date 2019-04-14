@@ -1,0 +1,13 @@
+.container-header{
+    width: 100%;
+    height: 100px;
+    background-color: #2046AB;
+    display: flex;
+    align-items: center;
+    .icon-almundo{
+        width: 250px;
+        height: 50px;
+        background: url('./../../assets/icons/logo-almundo.svg') no-repeat center;
+        margin-left: 20px;
+    }
+}
