@@ -11,3 +11,6 @@ La aplicacion cliente se realizo en react js para ejecutar la aplicacion npm sta
 
 #Para ambientes de produccion aplicacion cliente
 Se debe ejecutar el comando npm run build
+
+#Para instalar dependencias de las dos aplicaciones
+Se debe ejecutar el comando npm install en cada una de las aplicaciones
